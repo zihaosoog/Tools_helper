@@ -231,6 +231,7 @@ class GG_Bibtex(object):
                     
 
 if __name__ == "__main__":
+    # 从上到下的分别需要3个路径：chromedriver所在PC的本地目录，预先分行写好的参考文献title的txt 以及 准备输出bib的txt
     driver_path = r"C:\Program Files\Google\Chrome\Application\chromedriver.exe"
     input_file_path = r'E:\BaiduSyncdisk\Paper_SCI\BIT-thesis-template-grd\reference\titles2.txt'
     output_file_path = r'E:\BaiduSyncdisk\Paper_SCI\BIT-thesis-template-grd\reference\output2.txt'
